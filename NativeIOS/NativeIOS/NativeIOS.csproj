@@ -122,6 +122,10 @@
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
             <Visible>false</Visible>
         </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\Noimage.imageset\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\Noimage.imageset\Noimage.jpeg" />
+        <ImageAsset Include="Assets.xcassets\Noimage.imageset\Noimage-1.jpeg" />
+        <ImageAsset Include="Assets.xcassets\Noimage.imageset\Noimage-2.jpeg" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\" />
@@ -130,6 +134,7 @@
         <Folder Include="DataSorces\" />
         <Folder Include="Cells\" />
         <Folder Include="Controllers\" />
+        <Folder Include="Assets.xcassets\Noimage.imageset\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -161,10 +166,6 @@
         <Compile Include="Cells\tableCell.designer.cs">
           <DependentUpon>tableCell.cs</DependentUpon>
         </Compile>
-        <Compile Include="Cells\PocTableViewCell.cs" />
-        <Compile Include="Cells\PocTableViewCell.designer.cs">
-          <DependentUpon>PocTableViewCell.cs</DependentUpon>
-        </Compile>
         <Compile Include="DataSorces\PocTableViewSource.cs" />
         <Compile Include="Controllers\PocController.cs" />
         <Compile Include="Controllers\PocController.designer.cs">
@@ -182,9 +183,6 @@
         <Compile Include="Controllers\ViewController.designer.cs">
           <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
-    </ItemGroup>
-    <ItemGroup>
-      <BundleResource Include="Resources\Noimage.jpeg" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

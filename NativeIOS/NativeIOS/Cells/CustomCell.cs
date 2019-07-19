@@ -34,6 +34,10 @@ namespace NativeIOS
                     Imageview.Image = UIImage.FromBundle("Noimage");
                 }
             }
+            else
+            {
+                Imageview.Image = UIImage.FromBundle("Noimage");
+            }
             LblTitle.TextColor = UIColor.DarkTextColor;
             LblDescription.TextColor = UIColor.DarkTextColor;
         }
