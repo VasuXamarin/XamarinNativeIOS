@@ -127,6 +127,9 @@
         <Folder Include="Resources\" />
         <Folder Include="Services\" />
         <Folder Include="Model\" />
+        <Folder Include="DataSorces\" />
+        <Folder Include="Cells\" />
+        <Folder Include="Controllers\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -141,44 +144,44 @@
     <ItemGroup>
         <Compile Include="Main.cs" />
         <Compile Include="AppDelegate.cs" />
-        <Compile Include="ViewController.cs" />
-        <Compile Include="ViewController.designer.cs">
-            <DependentUpon>ViewController.cs</DependentUpon>
-        </Compile>
         <Compile Include="Services\IDropBoxContent.cs" />
         <Compile Include="Model\DropBoxData.cs" />
-        <Compile Include="DropBoxTVS.cs" />
-        <Compile Include="CustomCell.cs" />
-        <Compile Include="CustomCell.designer.cs">
-          <DependentUpon>CustomCell.cs</DependentUpon>
-        </Compile>
-        <Compile Include="CardView.cs" />
-        <Compile Include="CollectionViewController.cs" />
-        <Compile Include="CollectionViewController.designer.cs">
-          <DependentUpon>CollectionViewController.cs</DependentUpon>
-        </Compile>
-        <Compile Include="DropBoxCVS.cs" />
-        <Compile Include="TestViewController.cs" />
-        <Compile Include="TestViewController.designer.cs">
-          <DependentUpon>TestViewController.cs</DependentUpon>
-        </Compile>
-        <Compile Include="CVCell.cs" />
-        <Compile Include="CVCell.designer.cs">
+        <Compile Include="DataSorces\DropBoxCVS.cs" />
+        <Compile Include="DataSorces\DropBoxTVS.cs" />
+        <Compile Include="Cells\CVCell.cs" />
+        <Compile Include="Cells\CVCell.designer.cs">
           <DependentUpon>CVCell.cs</DependentUpon>
         </Compile>
-        <Compile Include="PocController.cs" />
-        <Compile Include="PocController.designer.cs">
-          <DependentUpon>PocController.cs</DependentUpon>
+        <Compile Include="Cells\CustomCell.cs" />
+        <Compile Include="Cells\CustomCell.designer.cs">
+          <DependentUpon>CustomCell.cs</DependentUpon>
         </Compile>
-        <Compile Include="PocTableViewCell.cs" />
-        <Compile Include="PocTableViewCell.designer.cs">
-          <DependentUpon>PocTableViewCell.cs</DependentUpon>
-        </Compile>
-        <Compile Include="tableCell.cs" />
-        <Compile Include="tableCell.designer.cs">
+        <Compile Include="Cells\CardView.cs" />
+        <Compile Include="Cells\tableCell.cs" />
+        <Compile Include="Cells\tableCell.designer.cs">
           <DependentUpon>tableCell.cs</DependentUpon>
         </Compile>
-        <Compile Include="PocTableViewSource.cs" />
+        <Compile Include="Cells\PocTableViewCell.cs" />
+        <Compile Include="Cells\PocTableViewCell.designer.cs">
+          <DependentUpon>PocTableViewCell.cs</DependentUpon>
+        </Compile>
+        <Compile Include="DataSorces\PocTableViewSource.cs" />
+        <Compile Include="Controllers\PocController.cs" />
+        <Compile Include="Controllers\PocController.designer.cs">
+          <DependentUpon>PocController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Controllers\CollectionViewController.cs" />
+        <Compile Include="Controllers\CollectionViewController.designer.cs">
+          <DependentUpon>CollectionViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Controllers\TestViewController.cs" />
+        <Compile Include="Controllers\TestViewController.designer.cs">
+          <DependentUpon>TestViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Controllers\ViewController.cs" />
+        <Compile Include="Controllers\ViewController.designer.cs">
+          <DependentUpon>ViewController.cs</DependentUpon>
+        </Compile>
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="Resources\Noimage.jpeg" />
