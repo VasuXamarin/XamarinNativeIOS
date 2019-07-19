@@ -131,7 +131,7 @@
         <Folder Include="Resources\" />
         <Folder Include="Services\" />
         <Folder Include="Model\" />
-        <Folder Include="DataSorces\" />
+        <Folder Include="DataSources\" />
         <Folder Include="Cells\" />
         <Folder Include="Controllers\" />
         <Folder Include="Assets.xcassets\Noimage.imageset\" />
@@ -151,8 +151,8 @@
         <Compile Include="AppDelegate.cs" />
         <Compile Include="Services\IDropBoxContent.cs" />
         <Compile Include="Model\DropBoxData.cs" />
-        <Compile Include="DataSorces\DropBoxCVS.cs" />
-        <Compile Include="DataSorces\DropBoxTVS.cs" />
+        <Compile Include="DataSources\DropBoxCVS.cs" />
+        <Compile Include="DataSources\DropBoxTVS.cs" />
         <Compile Include="Cells\CVCell.cs" />
         <Compile Include="Cells\CVCell.designer.cs">
           <DependentUpon>CVCell.cs</DependentUpon>
@@ -166,7 +166,7 @@
         <Compile Include="Cells\tableCell.designer.cs">
           <DependentUpon>tableCell.cs</DependentUpon>
         </Compile>
-        <Compile Include="DataSorces\PocTableViewSource.cs" />
+        <Compile Include="DataSources\PocTableViewSource.cs" />
         <Compile Include="Controllers\PocController.cs" />
         <Compile Include="Controllers\PocController.designer.cs">
           <DependentUpon>PocController.cs</DependentUpon>
